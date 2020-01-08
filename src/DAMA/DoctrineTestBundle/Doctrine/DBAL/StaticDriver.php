@@ -21,7 +21,7 @@ class StaticDriver implements Driver, ExceptionConverterDriver, VersionAwarePlat
     /**
      * @var bool
      */
-    private static $keepStaticConnections = false;
+    private static $keepStaticConnections = true;
 
     /**
      * @var Driver
